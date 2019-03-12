@@ -53,7 +53,7 @@ export default class RoEditPanel extends React.Component<IRoEditPanelProps, IPan
         <Panel 
           isOpen={this.state.showPanel}
           onDismiss={this._hidePanel}
-          type={PanelType.large}
+          type={PanelType.medium}
           headerText="Return Operation"> 
 
           {this.state.id==null && this.state.type!=null && 

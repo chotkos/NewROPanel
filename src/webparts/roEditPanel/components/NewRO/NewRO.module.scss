@@ -9,4 +9,41 @@
     .viaLabel{        
         text-align: right;        
     }
+
+    .infoIcon{
+        height: 28px;
+        width: 28px;
+        font-size: 28px;
+    }
+
+    .yellowBtn{
+        background-color: $ms-color-yellow
+    }
+
+    .greenBtn{
+        background-color: $ms-color-green
+    }
+    .contentRight{
+        text-align: right;
+    }
+
+    .rowSpacing{
+        margin-bottom:10px;
+    }
+
+    .footer{
+        position:absolute;
+        padding-top:5px;
+        bottom:0px;
+        right:60px;
+        height:80px;
+        display:block;
+        width:100%;
+        background-color:white;
+
+    }
+
+    .scrollContainer{
+        padding-bottom: 100px;
+    }
 }
