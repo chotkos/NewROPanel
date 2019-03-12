@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.7.1",
+    "libraryName": "ro-edit-panel",
+    "libraryId": "2d5ae800-f96d-497b-a5c3-b8c2e2c5afe3",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ro-edit-panel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/roEditPanel/RoEditPanelWebPart.js",
+          "manifest": "./src/webparts/roEditPanel/RoEditPanelWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RoEditPanelWebPartStrings": "lib/webparts/roEditPanel/loc/{locale}.js"
+  }
+}
